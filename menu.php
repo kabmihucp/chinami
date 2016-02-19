@@ -6,7 +6,7 @@
 <title>CATS</title>
 </head>
 <body>
-<p class="t_login">CATS</p>
+<p class="t_login">CAT</p>
 <div id="content">
 <form action="login_db.php">
 	<table>
