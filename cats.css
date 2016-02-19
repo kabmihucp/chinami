@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+/*============================================
+全般的なスタイル
+============================================*/	
+html {
+	height: 100%;
+	margin: 0 auto;
+	padding: 0;
+	display: table;
+}
+
+body {
+	min-height: 100%;
+	margin: 0 auto;
+	padding: 0;
+	display: table-cell;
+	vertical-align: top;
+	text-align: center;
+	background-image:url("/img/footer_lodyas.png");/*ページ全体の背景*/
+}
+
+#content {
+	color: #F5FFFA;
+	background: #7FFFD4;
+	padding: 35px;
+	border: ridge 10px #7FFFD4;
+}
+
+p.shadow {
+	font-size: large;
+	text-shadow: black 1px 1px 0px, black -1px 1px 0px,
+             black 1px -1px 0px, black -1px -1px 0px;
+}
+
+p.t_login {
+	font-size: 100px;
+	font-family: 'Impact';
+	color: #7FFFD4;
+}
+
+p.m_login {
+	font-size: 18px;
+	text-align: left;
+	color: black;
+}
+
+input.login {
+	width: 70px;
+	height: 30px;
+}
+
+
